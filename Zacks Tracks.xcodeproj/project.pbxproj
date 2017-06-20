@@ -7,46 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6007F3CE1EF9B31A00029D1F /* Sample.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 6007F3CD1EF9B31A00029D1F /* Sample.JSON */; };
+		6007F3D11EF9B4E600029D1F /* GetPopularTracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D01EF9B4E600029D1F /* GetPopularTracks.swift */; };
+		6007F3D31EF9B70500029D1F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D21EF9B70500029D1F /* Session.swift */; };
+		6007F3D51EF9B94800029D1F /* JsonApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D41EF9B94800029D1F /* JsonApiSession.swift */; };
+		6007F3D71EF9BFE200029D1F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D61EF9BFE200029D1F /* Client.swift */; };
 		608582E21EF607530021F8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582E11EF607530021F8F2 /* AppDelegate.swift */; };
-		608582E41EF607530021F8F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582E31EF607530021F8F2 /* ViewController.swift */; };
+		608582E41EF607530021F8F2 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582E31EF607530021F8F2 /* TopViewController.swift */; };
 		608582E71EF607530021F8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608582E51EF607530021F8F2 /* Main.storyboard */; };
 		608582E91EF607530021F8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608582E81EF607530021F8F2 /* Assets.xcassets */; };
 		608582EC1EF607530021F8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608582EA1EF607530021F8F2 /* LaunchScreen.storyboard */; };
-		608582F71EF607530021F8F2 /* Zacks_TracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582F61EF607530021F8F2 /* Zacks_TracksTests.swift */; };
-		608583021EF607530021F8F2 /* Zacks_TracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583011EF607530021F8F2 /* Zacks_TracksUITests.swift */; };
+		608583101EF608390021F8F2 /* PopularRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085830F1EF608390021F8F2 /* PopularRequest.swift */; };
+		608583131EF608A30021F8F2 /* HTTPRequestTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583121EF608A30021F8F2 /* HTTPRequestTypes.swift */; };
+		608583151EF608BD0021F8F2 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583141EF608BD0021F8F2 /* HTTPRequest.swift */; };
+		608583171EF608D40021F8F2 /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583161EF608D40021F8F2 /* HTTPSession.swift */; };
+		608583191EF608EB0021F8F2 /* HTTPSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583181EF608EB0021F8F2 /* HTTPSessionError.swift */; };
+		6085831B1EF609090021F8F2 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085831A1EF609090021F8F2 /* IpAddress.swift */; };
+		6085831D1EF6091C0021F8F2 /* SubnetMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085831C1EF6091C0021F8F2 /* SubnetMask.swift */; };
+		6085831F1EF609300021F8F2 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085831E1EF609300021F8F2 /* URLParameterEncoder.swift */; };
+		608583211EF609580021F8F2 /* JsonUrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583201EF609580021F8F2 /* JsonUrlRequest.swift */; };
+		60C927371EF7097D006B0ECA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C927361EF7097D006B0ECA /* Track.swift */; };
+		60C927391EF70992006B0ECA /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C927381EF70992006B0ECA /* Playlist.swift */; };
+		9D84E4EE7827CB910E99E626 /* Pods_Zacks_Tracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7A3E14AFC719A3211F7E0D /* Pods_Zacks_Tracks.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		608582F31EF607530021F8F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 608582D61EF607520021F8F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 608582DD1EF607530021F8F2;
-			remoteInfo = "Zacks Tracks";
-		};
-		608582FE1EF607530021F8F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 608582D61EF607520021F8F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 608582DD1EF607530021F8F2;
-			remoteInfo = "Zacks Tracks";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2C8DDE2B280062F246F28B0F /* Pods-Zacks Tracks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zacks Tracks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks.debug.xcconfig"; sourceTree = "<group>"; };
+		6007F3CD1EF9B31A00029D1F /* Sample.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sample.JSON; sourceTree = "<group>"; };
+		6007F3D01EF9B4E600029D1F /* GetPopularTracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPopularTracks.swift; sourceTree = "<group>"; };
+		6007F3D21EF9B70500029D1F /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		6007F3D41EF9B94800029D1F /* JsonApiSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonApiSession.swift; sourceTree = "<group>"; };
+		6007F3D61EF9BFE200029D1F /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		608582DE1EF607530021F8F2 /* Zacks Tracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zacks Tracks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		608582E11EF607530021F8F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		608582E31EF607530021F8F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		608582E31EF607530021F8F2 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		608582E61EF607530021F8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		608582E81EF607530021F8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		608582EB1EF607530021F8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		608582ED1EF607530021F8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		608582F21EF607530021F8F2 /* Zacks TracksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zacks TracksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		608582F61EF607530021F8F2 /* Zacks_TracksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zacks_TracksTests.swift; sourceTree = "<group>"; };
-		608582F81EF607530021F8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		608582FD1EF607530021F8F2 /* Zacks TracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zacks TracksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		608583011EF607530021F8F2 /* Zacks_TracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zacks_TracksUITests.swift; sourceTree = "<group>"; };
-		608583031EF607530021F8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6085830F1EF608390021F8F2 /* PopularRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularRequest.swift; sourceTree = "<group>"; };
+		608583121EF608A30021F8F2 /* HTTPRequestTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestTypes.swift; sourceTree = "<group>"; };
+		608583141EF608BD0021F8F2 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		608583161EF608D40021F8F2 /* HTTPSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
+		608583181EF608EB0021F8F2 /* HTTPSessionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSessionError.swift; sourceTree = "<group>"; };
+		6085831A1EF609090021F8F2 /* IpAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpAddress.swift; sourceTree = "<group>"; };
+		6085831C1EF6091C0021F8F2 /* SubnetMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubnetMask.swift; sourceTree = "<group>"; };
+		6085831E1EF609300021F8F2 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		608583201EF609580021F8F2 /* JsonUrlRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonUrlRequest.swift; sourceTree = "<group>"; };
+		60C927361EF7097D006B0ECA /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		60C927381EF70992006B0ECA /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		CC5FDC25A0D6163E543F768E /* Pods-Zacks Tracks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zacks Tracks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks.release.xcconfig"; sourceTree = "<group>"; };
+		FD7A3E14AFC719A3211F7E0D /* Pods_Zacks_Tracks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zacks_Tracks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		608582EF1EF607530021F8F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		608582FA1EF607530021F8F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9D84E4EE7827CB910E99E626 /* Pods_Zacks_Tracks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6007F3CF1EF9B4C300029D1F /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6007F3D01EF9B4E600029D1F /* GetPopularTracks.swift */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
 		608582D51EF607520021F8F2 = {
 			isa = PBXGroup;
 			children = (
 				608582E01EF607530021F8F2 /* Zacks Tracks */,
-				608582F51EF607530021F8F2 /* Zacks TracksTests */,
-				608583001EF607530021F8F2 /* Zacks TracksUITests */,
 				608582DF1EF607530021F8F2 /* Products */,
+				E09F49A2AC9AA01D91205F43 /* Pods */,
+				9884501A4DC8ABFE96B7B4CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				608582DE1EF607530021F8F2 /* Zacks Tracks.app */,
-				608582F21EF607530021F8F2 /* Zacks TracksTests.xctest */,
-				608582FD1EF607530021F8F2 /* Zacks TracksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +101,12 @@
 		608582E01EF607530021F8F2 /* Zacks Tracks */ = {
 			isa = PBXGroup;
 			children = (
+				6007F3CF1EF9B4C300029D1F /* Actions */,
 				608582E11EF607530021F8F2 /* AppDelegate.swift */,
-				608582E31EF607530021F8F2 /* ViewController.swift */,
+				608582E31EF607530021F8F2 /* TopViewController.swift */,
 				608582E51EF607530021F8F2 /* Main.storyboard */,
+				60C927351EF70968006B0ECA /* Models */,
+				608583111EF6088C0021F8F2 /* Requests */,
 				608582E81EF607530021F8F2 /* Assets.xcassets */,
 				608582EA1EF607530021F8F2 /* LaunchScreen.storyboard */,
 				608582ED1EF607530021F8F2 /* Info.plist */,
@@ -107,22 +114,50 @@
 			path = "Zacks Tracks";
 			sourceTree = "<group>";
 		};
-		608582F51EF607530021F8F2 /* Zacks TracksTests */ = {
+		608583111EF6088C0021F8F2 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				608582F61EF607530021F8F2 /* Zacks_TracksTests.swift */,
-				608582F81EF607530021F8F2 /* Info.plist */,
+				6085830F1EF608390021F8F2 /* PopularRequest.swift */,
+				6007F3CD1EF9B31A00029D1F /* Sample.JSON */,
+				608583121EF608A30021F8F2 /* HTTPRequestTypes.swift */,
+				608583141EF608BD0021F8F2 /* HTTPRequest.swift */,
+				608583161EF608D40021F8F2 /* HTTPSession.swift */,
+				6007F3D41EF9B94800029D1F /* JsonApiSession.swift */,
+				608583181EF608EB0021F8F2 /* HTTPSessionError.swift */,
+				6085831A1EF609090021F8F2 /* IpAddress.swift */,
+				6085831C1EF6091C0021F8F2 /* SubnetMask.swift */,
+				6085831E1EF609300021F8F2 /* URLParameterEncoder.swift */,
+				608583201EF609580021F8F2 /* JsonUrlRequest.swift */,
+				6007F3D21EF9B70500029D1F /* Session.swift */,
 			);
-			path = "Zacks TracksTests";
+			name = Requests;
 			sourceTree = "<group>";
 		};
-		608583001EF607530021F8F2 /* Zacks TracksUITests */ = {
+		60C927351EF70968006B0ECA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				608583011EF607530021F8F2 /* Zacks_TracksUITests.swift */,
-				608583031EF607530021F8F2 /* Info.plist */,
+				60C927361EF7097D006B0ECA /* Track.swift */,
+				60C927381EF70992006B0ECA /* Playlist.swift */,
+				6007F3D61EF9BFE200029D1F /* Client.swift */,
 			);
-			path = "Zacks TracksUITests";
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9884501A4DC8ABFE96B7B4CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A3E14AFC719A3211F7E0D /* Pods_Zacks_Tracks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09F49A2AC9AA01D91205F43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DDE2B280062F246F28B0F /* Pods-Zacks Tracks.debug.xcconfig */,
+				CC5FDC25A0D6163E543F768E /* Pods-Zacks Tracks.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 608583061EF607530021F8F2 /* Build configuration list for PBXNativeTarget "Zacks Tracks" */;
 			buildPhases = (
+				0BF736B521E52AFE6BD33C21 /* [CP] Check Pods Manifest.lock */,
 				608582DA1EF607530021F8F2 /* Sources */,
 				608582DB1EF607530021F8F2 /* Frameworks */,
 				608582DC1EF607530021F8F2 /* Resources */,
+				6C6494CFF959106FDF25894F /* [CP] Embed Pods Frameworks */,
+				9D12C4BD15597C23828CAEBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,42 +182,6 @@
 			productName = "Zacks Tracks";
 			productReference = 608582DE1EF607530021F8F2 /* Zacks Tracks.app */;
 			productType = "com.apple.product-type.application";
-		};
-		608582F11EF607530021F8F2 /* Zacks TracksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 608583091EF607530021F8F2 /* Build configuration list for PBXNativeTarget "Zacks TracksTests" */;
-			buildPhases = (
-				608582EE1EF607530021F8F2 /* Sources */,
-				608582EF1EF607530021F8F2 /* Frameworks */,
-				608582F01EF607530021F8F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				608582F41EF607530021F8F2 /* PBXTargetDependency */,
-			);
-			name = "Zacks TracksTests";
-			productName = "Zacks TracksTests";
-			productReference = 608582F21EF607530021F8F2 /* Zacks TracksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		608582FC1EF607530021F8F2 /* Zacks TracksUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6085830C1EF607530021F8F2 /* Build configuration list for PBXNativeTarget "Zacks TracksUITests" */;
-			buildPhases = (
-				608582F91EF607530021F8F2 /* Sources */,
-				608582FA1EF607530021F8F2 /* Frameworks */,
-				608582FB1EF607530021F8F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				608582FF1EF607530021F8F2 /* PBXTargetDependency */,
-			);
-			name = "Zacks TracksUITests";
-			productName = "Zacks TracksUITests";
-			productReference = 608582FD1EF607530021F8F2 /* Zacks TracksUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,17 +195,8 @@
 				TargetAttributes = {
 					608582DD1EF607530021F8F2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
-					};
-					608582F11EF607530021F8F2 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 608582DD1EF607530021F8F2;
-					};
-					608582FC1EF607530021F8F2 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 608582DD1EF607530021F8F2;
 					};
 				};
 			};
@@ -221,8 +214,6 @@
 			projectRoot = "";
 			targets = (
 				608582DD1EF607530021F8F2 /* Zacks Tracks */,
-				608582F11EF607530021F8F2 /* Zacks TracksTests */,
-				608582FC1EF607530021F8F2 /* Zacks TracksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,67 +224,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				608582EC1EF607530021F8F2 /* LaunchScreen.storyboard in Resources */,
+				6007F3CE1EF9B31A00029D1F /* Sample.JSON in Resources */,
 				608582E91EF607530021F8F2 /* Assets.xcassets in Resources */,
 				608582E71EF607530021F8F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		608582F01EF607530021F8F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		608582FB1EF607530021F8F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF736B521E52AFE6BD33C21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6494CFF959106FDF25894F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D12C4BD15597C23828CAEBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		608582DA1EF607530021F8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				608582E41EF607530021F8F2 /* ViewController.swift in Sources */,
+				6007F3D11EF9B4E600029D1F /* GetPopularTracks.swift in Sources */,
+				608583171EF608D40021F8F2 /* HTTPSession.swift in Sources */,
+				60C927391EF70992006B0ECA /* Playlist.swift in Sources */,
+				6085831B1EF609090021F8F2 /* IpAddress.swift in Sources */,
+				608582E41EF607530021F8F2 /* TopViewController.swift in Sources */,
+				6007F3D31EF9B70500029D1F /* Session.swift in Sources */,
+				608583101EF608390021F8F2 /* PopularRequest.swift in Sources */,
+				6007F3D51EF9B94800029D1F /* JsonApiSession.swift in Sources */,
+				6085831F1EF609300021F8F2 /* URLParameterEncoder.swift in Sources */,
+				6085831D1EF6091C0021F8F2 /* SubnetMask.swift in Sources */,
+				608583151EF608BD0021F8F2 /* HTTPRequest.swift in Sources */,
+				6007F3D71EF9BFE200029D1F /* Client.swift in Sources */,
 				608582E21EF607530021F8F2 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		608582EE1EF607530021F8F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				608582F71EF607530021F8F2 /* Zacks_TracksTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		608582F91EF607530021F8F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				608583021EF607530021F8F2 /* Zacks_TracksUITests.swift in Sources */,
+				608583211EF609580021F8F2 /* JsonUrlRequest.swift in Sources */,
+				608583131EF608A30021F8F2 /* HTTPRequestTypes.swift in Sources */,
+				608583191EF608EB0021F8F2 /* HTTPSessionError.swift in Sources */,
+				60C927371EF7097D006B0ECA /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		608582F41EF607530021F8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 608582DD1EF607530021F8F2 /* Zacks Tracks */;
-			targetProxy = 608582F31EF607530021F8F2 /* PBXContainerItemProxy */;
-		};
-		608582FF1EF607530021F8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 608582DD1EF607530021F8F2 /* Zacks Tracks */;
-			targetProxy = 608582FE1EF607530021F8F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		608582E51EF607530021F8F2 /* Main.storyboard */ = {
@@ -355,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -399,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -410,9 +422,11 @@
 		};
 		608583071EF607530021F8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8DDE2B280062F246F28B0F /* Pods-Zacks Tracks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Zacks Tracks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uncover.Zacks-Tracks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,67 +436,15 @@
 		};
 		608583081EF607530021F8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5FDC25A0D6163E543F768E /* Pods-Zacks Tracks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Zacks Tracks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uncover.Zacks-Tracks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		6085830A1EF607530021F8F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Zacks TracksTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uncover.Zacks-TracksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zacks Tracks.app/Zacks Tracks";
-			};
-			name = Debug;
-		};
-		6085830B1EF607530021F8F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Zacks TracksTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uncover.Zacks-TracksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zacks Tracks.app/Zacks Tracks";
-			};
-			name = Release;
-		};
-		6085830D1EF607530021F8F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "Zacks TracksUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uncover.Zacks-TracksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Zacks Tracks";
-			};
-			name = Debug;
-		};
-		6085830E1EF607530021F8F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "Zacks TracksUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uncover.Zacks-TracksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Zacks Tracks";
 			};
 			name = Release;
 		};
@@ -505,22 +467,7 @@
 				608583081EF607530021F8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		608583091EF607530021F8F2 /* Build configuration list for PBXNativeTarget "Zacks TracksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6085830A1EF607530021F8F2 /* Debug */,
-				6085830B1EF607530021F8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6085830C1EF607530021F8F2 /* Build configuration list for PBXNativeTarget "Zacks TracksUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6085830D1EF607530021F8F2 /* Debug */,
-				6085830E1EF607530021F8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

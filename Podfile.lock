@@ -1,0 +1,18 @@
+PODS:
+  - BrightFutures (5.2.0):
+    - Result (~> 3.2)
+  - Result (3.2.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - BrightFutures (= 5.2.0)
+  - SwiftyJSON (= 3.1.4)
+
+SPEC CHECKSUMS:
+  BrightFutures: 8681dbb9fa831b69b6e7dc4a498b9e081d5daeb5
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: e8e8639c203cc64882e47083bdf3775e8faa6637
+
+COCOAPODS: 1.2.1
