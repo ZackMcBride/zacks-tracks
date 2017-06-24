@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6007F3CE1EF9B31A00029D1F /* Sample.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 6007F3CD1EF9B31A00029D1F /* Sample.JSON */; };
-		6007F3D11EF9B4E600029D1F /* GetPopularTracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D01EF9B4E600029D1F /* GetPopularTracks.swift */; };
+		6007F3D11EF9B4E600029D1F /* FetchPopularTracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D01EF9B4E600029D1F /* FetchPopularTracks.swift */; };
 		6007F3D31EF9B70500029D1F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D21EF9B70500029D1F /* Session.swift */; };
 		6007F3D51EF9B94800029D1F /* JsonApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D41EF9B94800029D1F /* JsonApiSession.swift */; };
 		6007F3D71EF9BFE200029D1F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F3D61EF9BFE200029D1F /* Client.swift */; };
+		6074AD891EFEF04800238B6B /* PopularViewController+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6074AD881EFEF04800238B6B /* PopularViewController+State.swift */; };
 		608582E21EF607530021F8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582E11EF607530021F8F2 /* AppDelegate.swift */; };
-		608582E41EF607530021F8F2 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582E31EF607530021F8F2 /* TopViewController.swift */; };
+		608582E41EF607530021F8F2 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608582E31EF607530021F8F2 /* PopularViewController.swift */; };
 		608582E71EF607530021F8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608582E51EF607530021F8F2 /* Main.storyboard */; };
 		608582E91EF607530021F8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608582E81EF607530021F8F2 /* Assets.xcassets */; };
 		608582EC1EF607530021F8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608582EA1EF607530021F8F2 /* LaunchScreen.storyboard */; };
@@ -26,6 +27,7 @@
 		6085831D1EF6091C0021F8F2 /* SubnetMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085831C1EF6091C0021F8F2 /* SubnetMask.swift */; };
 		6085831F1EF609300021F8F2 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085831E1EF609300021F8F2 /* URLParameterEncoder.swift */; };
 		608583211EF609580021F8F2 /* JsonUrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608583201EF609580021F8F2 /* JsonUrlRequest.swift */; };
+		60B116C21EFEFE3D00027640 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B116C11EFEFE3D00027640 /* TrackCell.swift */; };
 		60C927371EF7097D006B0ECA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C927361EF7097D006B0ECA /* Track.swift */; };
 		60C927391EF70992006B0ECA /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C927381EF70992006B0ECA /* Playlist.swift */; };
 		9D84E4EE7827CB910E99E626 /* Pods_Zacks_Tracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7A3E14AFC719A3211F7E0D /* Pods_Zacks_Tracks.framework */; };
@@ -34,13 +36,14 @@
 /* Begin PBXFileReference section */
 		2C8DDE2B280062F246F28B0F /* Pods-Zacks Tracks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zacks Tracks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks.debug.xcconfig"; sourceTree = "<group>"; };
 		6007F3CD1EF9B31A00029D1F /* Sample.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sample.JSON; sourceTree = "<group>"; };
-		6007F3D01EF9B4E600029D1F /* GetPopularTracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPopularTracks.swift; sourceTree = "<group>"; };
+		6007F3D01EF9B4E600029D1F /* FetchPopularTracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchPopularTracks.swift; sourceTree = "<group>"; };
 		6007F3D21EF9B70500029D1F /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		6007F3D41EF9B94800029D1F /* JsonApiSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonApiSession.swift; sourceTree = "<group>"; };
 		6007F3D61EF9BFE200029D1F /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		6074AD881EFEF04800238B6B /* PopularViewController+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopularViewController+State.swift"; sourceTree = "<group>"; };
 		608582DE1EF607530021F8F2 /* Zacks Tracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zacks Tracks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		608582E11EF607530021F8F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		608582E31EF607530021F8F2 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		608582E31EF607530021F8F2 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
 		608582E61EF607530021F8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		608582E81EF607530021F8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		608582EB1EF607530021F8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		6085831C1EF6091C0021F8F2 /* SubnetMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubnetMask.swift; sourceTree = "<group>"; };
 		6085831E1EF609300021F8F2 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		608583201EF609580021F8F2 /* JsonUrlRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonUrlRequest.swift; sourceTree = "<group>"; };
+		60B116C11EFEFE3D00027640 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		60C927361EF7097D006B0ECA /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		60C927381EF70992006B0ECA /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		CC5FDC25A0D6163E543F768E /* Pods-Zacks Tracks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zacks Tracks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +79,7 @@
 		6007F3CF1EF9B4C300029D1F /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				6007F3D01EF9B4E600029D1F /* GetPopularTracks.swift */,
+				6007F3D01EF9B4E600029D1F /* FetchPopularTracks.swift */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -103,7 +107,9 @@
 			children = (
 				6007F3CF1EF9B4C300029D1F /* Actions */,
 				608582E11EF607530021F8F2 /* AppDelegate.swift */,
-				608582E31EF607530021F8F2 /* TopViewController.swift */,
+				608582E31EF607530021F8F2 /* PopularViewController.swift */,
+				60B116C11EFEFE3D00027640 /* TrackCell.swift */,
+				6074AD881EFEF04800238B6B /* PopularViewController+State.swift */,
 				608582E51EF607530021F8F2 /* Main.storyboard */,
 				60C927351EF70968006B0ECA /* Models */,
 				608583111EF6088C0021F8F2 /* Requests */,
@@ -285,11 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6007F3D11EF9B4E600029D1F /* GetPopularTracks.swift in Sources */,
+				6007F3D11EF9B4E600029D1F /* FetchPopularTracks.swift in Sources */,
 				608583171EF608D40021F8F2 /* HTTPSession.swift in Sources */,
+				6074AD891EFEF04800238B6B /* PopularViewController+State.swift in Sources */,
 				60C927391EF70992006B0ECA /* Playlist.swift in Sources */,
 				6085831B1EF609090021F8F2 /* IpAddress.swift in Sources */,
-				608582E41EF607530021F8F2 /* TopViewController.swift in Sources */,
+				608582E41EF607530021F8F2 /* PopularViewController.swift in Sources */,
 				6007F3D31EF9B70500029D1F /* Session.swift in Sources */,
 				608583101EF608390021F8F2 /* PopularRequest.swift in Sources */,
 				6007F3D51EF9B94800029D1F /* JsonApiSession.swift in Sources */,
@@ -300,6 +307,7 @@
 				608582E21EF607530021F8F2 /* AppDelegate.swift in Sources */,
 				608583211EF609580021F8F2 /* JsonUrlRequest.swift in Sources */,
 				608583131EF608A30021F8F2 /* HTTPRequestTypes.swift in Sources */,
+				60B116C21EFEFE3D00027640 /* TrackCell.swift in Sources */,
 				608583191EF608EB0021F8F2 /* HTTPSessionError.swift in Sources */,
 				60C927371EF7097D006B0ECA /* Track.swift in Sources */,
 			);

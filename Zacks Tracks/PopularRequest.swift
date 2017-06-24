@@ -20,13 +20,14 @@ class PopularRequest: HTTPGETRequest, HTTPJsonRequest {
 
             let trackJson = item.dictionary!
 
-            let track = Track(uuid: trackJson["uuid"]!.string!,
-                              streamUrl: trackJson["stream_url"]!.string!,
-                              rank: trackJson["rank"]!.string!,
-                              externalUrl: trackJson["ext_url"]!.string!,
-                              title: trackJson["title"]!.string!,
-                              artist: trackJson["artist"]!.string!,
-                              starredAt: trackJson["starred_at"]!.string!)
+            let track = Track()
+            track.uuid = trackJson["uuid"]!.string!
+            track.streamUrl = trackJson["stream_url"]!.string!
+            track.rank = trackJson["rank"]!.string!
+            track.externalUrl = trackJson["ext_url"]!.string!
+            track.title = trackJson["title"]!.string!
+            track.artist = trackJson["artist"]!.string!
+            track.starredAt = trackJson["starred_at"]!.string!
             tracks.append(track)
         }
 
