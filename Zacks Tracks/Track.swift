@@ -1,11 +1,16 @@
 import Foundation
+import RealmSwift
 
-struct Track {
-    let uuid: String
-    let streamUrl: String
-    let rank: String
-    let externalUrl: String
-    let title: String
-    let artist: String
-    let starredAt: String
+class Track: Object {
+    dynamic var uuid = ""
+    dynamic var streamUrl = ""
+    dynamic var rank = ""
+    dynamic var externalUrl = ""
+    dynamic var title = ""
+    dynamic var artist = ""
+    dynamic var starredAt = ""
+
+    override static func primaryKey() -> String? {
+        return "uuid"
+    }
 }
