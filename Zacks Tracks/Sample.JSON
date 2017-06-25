@@ -4,10 +4,17 @@
             "uuid": "41c1429d-2b79-4a4d-a9be-785a0dd109cf",
             "rank": 1,
             "title": "FACE",
-            "artist": "BROCKHAMPTON",
+            "artist": {
+                "uuid": "e94d9a48-8c5f-44d3-b11b-6f9172cb7d04",
+                "name": "BROCKHAMPTON"
+            },
             "externalUrl": "http://houseoflords.xyz/brockhampton-heat/",
+            "starredAt": "2015-08-28T04:00:00Z",
             "streamUrl": "https://api.soundcloud.com/tracks/90787841/stream?client_id=fs2FkPBdYj7aNns0zJqgi8ZmR7CAXaBw",
-            "starredAt": "2015-08-28T04:00:00Z"
+            "player": {
+                "name": "Soundcloud",
+                "clientId": "fs2FkPBdYj7aNns0zJqgi8ZmR7CAXaBw"
+            }
         }
     ]
 }
