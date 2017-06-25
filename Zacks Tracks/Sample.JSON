@@ -1,14 +1,13 @@
 {
-    "popular":
-    [
-     {
-     "uuid": "D3DCA7BF-DACF-4460-B22C-809CF8F555CC",
-     "rank": "1",
-     "stream_url": "https://api.soundcloud.com/tracks/90787841/stream?client_id=fs2FkPBdYj7aNns0zJqgi8ZmR7CAXaBw",
-     "title": "FACE",
-     "artist": "BROCKHAMPTON",
-     "ext_url": "http://houseoflords.xyz/brockhampton-heat/",
-     "starred_at": "2015-08-28T04:00:00Z"
-     },
+    "popular": [
+        {
+            "uuid": "41c1429d-2b79-4a4d-a9be-785a0dd109cf",
+            "rank": 1,
+            "title": "FACE",
+            "artist": "BROCKHAMPTON",
+            "externalUrl": "http://houseoflords.xyz/brockhampton-heat/",
+            "streamUrl": "https://api.soundcloud.com/tracks/90787841/stream?client_id=fs2FkPBdYj7aNns0zJqgi8ZmR7CAXaBw",
+            "starredAt": "2015-08-28T04:00:00Z"
+        }
     ]
 }
