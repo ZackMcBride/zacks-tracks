@@ -6,6 +6,7 @@ class PopularViewController: UIViewController {
 
     private var state: PopularViewControllerState!
     private let disposeBag = DisposeBag()
+    private var player: AVAudioPlayer!
 
     fileprivate var tracks: [Track] = [Track]()
 
@@ -33,16 +34,20 @@ class PopularViewController: UIViewController {
             }
         }.addDisposableTo(disposeBag)
     }
+
+    fileprivate func startStreaming(track: Track) {
+        Stream().open(url: URL(string: track.streamUrl)!).onSuccess { data in
+            self.player = try! AVAudioPlayer(data: data)
+            self.player.play()
+        }
+    }
 }
 
 extension PopularViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var player = AVPlayer()
-        let playerItem = AVPlayerItem(url: URL(string: "http://url.com/")!)
-        player = AVPlayer(playerItem: playerItem)
-        player.rate = 1.0;
-        player.play()
+        let track = tracks[indexPath.row]
+        startStreaming(track: track)
     }
 
 }
