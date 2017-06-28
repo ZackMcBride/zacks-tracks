@@ -8,7 +8,7 @@ public class Session: NSObject {
     typealias StoreDetails = (storeUuid: String, timezone: String)
 
     private let maxAuthenticationRequestAttempts = 3
-    private let baseUrl = NSURL(string: "https://api.zackstracks.com")!
+    private let baseUrl = NSURL(string: "https://songys-staging.jonnypower.com/api")!
     private let session: JsonAPISession
 
     // MARK: Public methods

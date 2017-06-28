@@ -31,6 +31,7 @@
 		60C927371EF7097D006B0ECA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C927361EF7097D006B0ECA /* Track.swift */; };
 		60C927391EF70992006B0ECA /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C927381EF70992006B0ECA /* Playlist.swift */; };
 		60E4F0491EFF4EF300B572C1 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4F0481EFF4EF300B572C1 /* Stream.swift */; };
+		60E4F04B1EFF716900B572C1 /* PlayTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4F04A1EFF716900B572C1 /* PlayTrack.swift */; };
 		9D84E4EE7827CB910E99E626 /* Pods_Zacks_Tracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7A3E14AFC719A3211F7E0D /* Pods_Zacks_Tracks.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		60C927361EF7097D006B0ECA /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		60C927381EF70992006B0ECA /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		60E4F0481EFF4EF300B572C1 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		60E4F04A1EFF716900B572C1 /* PlayTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayTrack.swift; sourceTree = "<group>"; };
 		CC5FDC25A0D6163E543F768E /* Pods-Zacks Tracks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zacks Tracks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zacks Tracks/Pods-Zacks Tracks.release.xcconfig"; sourceTree = "<group>"; };
 		FD7A3E14AFC719A3211F7E0D /* Pods_Zacks_Tracks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zacks_Tracks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				6007F3D01EF9B4E600029D1F /* FetchPopularTracks.swift */,
+				60E4F04A1EFF716900B572C1 /* PlayTrack.swift */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				6007F3D11EF9B4E600029D1F /* FetchPopularTracks.swift in Sources */,
 				608583171EF608D40021F8F2 /* HTTPSession.swift in Sources */,
 				6074AD891EFEF04800238B6B /* PopularViewController+State.swift in Sources */,
+				60E4F04B1EFF716900B572C1 /* PlayTrack.swift in Sources */,
 				60C927391EF70992006B0ECA /* Playlist.swift in Sources */,
 				6085831B1EF609090021F8F2 /* IpAddress.swift in Sources */,
 				608582E41EF607530021F8F2 /* PopularViewController.swift in Sources */,

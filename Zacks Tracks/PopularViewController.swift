@@ -37,6 +37,12 @@ class PopularViewController: UIViewController {
 
     fileprivate func startStreaming(track: Track) {
         Stream().open(url: URL(string: track.streamUrl)!).onSuccess { data in
+
+            let documents = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+            let writePath = documents.appendingFormat("\(track.uuid).mp3")
+
+            try! data.write(to: URL(string: writePath)!)
+
             self.player = try! AVAudioPlayer(data: data)
             self.player.play()
         }
