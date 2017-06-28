@@ -10,34 +10,34 @@ public struct HTTPSession {
             let promise = Promise<(json: JSON, response: HTTPURLResponse), HTTPSessionError<DeserializationError>>()
 
             let task = session.dataTask(with: urlRequest as URLRequest) { data, response, error in
-//                guard error == nil else {
-//                    promise.failure(.URLSessionError(error! as NSError))
-//                    return
-//                }
-//
-//                guard let data = data, let response = response as? HTTPURLResponse else {
-//                    promise.failure(.BadResponse)
-//                    return
-//                }
-//
-//                guard error == nil && 200..<300 ~= response.statusCode else {
-//                    promise.failure(HTTPSessionError(httpErrorStatusCode: response.statusCode))
-//                    return
-//                }
+                guard error == nil else {
+                    promise.failure(.URLSessionError(error! as NSError))
+                    return
+                }
 
-                do {
-                    let path = Bundle.main.path(forResource: "Sample", ofType: "JSON")!
-                    let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
-                    let json = JSON(data: data)
-
-//                    let json = JSON(try JSONSerialization.jsonObject(with: data, options: []))
-                    let tempResponse = HTTPURLResponse(url: URL(string: "test.com")!, statusCode: 200, httpVersion: nil, headerFields: nil)!
-                    promise.success((json, tempResponse))
-
-                } catch {
+                guard let data = data, let response = response as? HTTPURLResponse else {
                     promise.failure(.BadResponse)
                     return
                 }
+
+                guard error == nil && 200..<300 ~= response.statusCode else {
+                    promise.failure(HTTPSessionError(httpErrorStatusCode: response.statusCode))
+                    return
+                }
+
+//                do {
+//                    let path = Bundle.main.path(forResource: "Sample", ofType: "JSON")!
+//                    let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
+                    let json = JSON(data: data)
+//
+////                    let json = JSON(try JSONSerialization.jsonObject(with: data, options: []))
+//                    let tempResponse = HTTPURLResponse(url: URL(string: "test.com")!, statusCode: 200, httpVersion: nil, headerFields: nil)!
+                    promise.success((json, response))
+//
+//                } catch {
+//                    promise.failure(.BadResponse)
+//                    return
+//                }
             }
 
             task.resume()

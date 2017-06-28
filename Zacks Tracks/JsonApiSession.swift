@@ -109,8 +109,8 @@ public class JsonAPISession: NSObject {
     private func requestWithDefaultHeaders(request: URLRequest) -> URLRequest {
         let headers = [
             "User-Agent": userAgent,
-            "Accept": "application/vnd.api+json",
-            "Content-Type": "application/vnd.api+json",
+            "Accept": "application/json",
+            "Content-Type": "application/json",
             ]
 
         var urlRequest = request

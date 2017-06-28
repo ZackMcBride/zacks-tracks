@@ -10,7 +10,7 @@ class PopularRequest: HTTPGETRequest, HTTPJsonRequest {
 
     typealias Response = [Track]
 
-    let path = "/popular"
+    let path = "/tracks"
 
     func deserialize(json: JSON, response: HTTPURLResponse) throws -> [Track] {
         let popularJson = json["popular"].array!
@@ -22,12 +22,15 @@ class PopularRequest: HTTPGETRequest, HTTPJsonRequest {
 
             let track = Track()
             track.uuid = trackJson["uuid"]!.string!
-            track.streamUrl = trackJson["stream_url"]!.string!
-            track.rank = trackJson["rank"]!.string!
-            track.externalUrl = trackJson["ext_url"]!.string!
+            track.streamUrl = trackJson["streamUrl"]!.string!
+            // TODO 
+            track.rank = String(trackJson["rank"]!.int!)
+            track.externalUrl = trackJson["externalUrl"]!.string!
             track.title = trackJson["title"]!.string!
-            track.artist = trackJson["artist"]!.string!
-            track.starredAt = trackJson["starred_at"]!.string!
+            // TODO Strongly type artist
+            track.artist = trackJson["artist"]!["name"].string!
+            track.starredAt = trackJson["starredAt"]!.string!
+            // TODO Deal with player
             tracks.append(track)
         }
 

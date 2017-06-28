@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Zacks Tracks/HTTPSession.swift"
@@ -52,12 +52,284 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Zacks Tracks/PopularViewController.swift"
-            timestampString = "520029394.752999"
+            timestampString = "520049710.642001"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "watchChanges(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380514.330639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "performDownloadRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380515.520981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "performDownloadRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380516.730491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "performDownloadRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/Session.swift"
+            timestampString = "520380575.18038"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "perform(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/Session.swift"
+            timestampString = "520380586.736765"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetch(jsonUrlRequest:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/JsonApiSession.swift"
+            timestampString = "520380632.980166"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "performJsonRequest(jsonUrlRequest:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zacks_Tracks.JsonAPISession.(performJsonRequest in _5886EB3D23805507D0936D5C9C86F616) &lt;A where A: Zacks_Tracks.HTTPJsonRequest&gt; (jsonUrlRequest : Zacks_Tracks.JsonUrlRequest&lt;A&gt;) -&gt; BrightFutures.Future&lt;(json : SwiftyJSON.JSON, response : __ObjC.HTTPURLResponse), Zacks_Tracks.HTTPSessionError&lt;A.RequestError&gt;&gt;"
+                  moduleName = "Zacks Tracks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackmcbride/Documents/Zacks%20Tracks/Zacks%20Tracks/JsonApiSession.swift"
+                  timestampString = "520381233.806952"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zacks_Tracks.JsonAPISession.((performJsonRequest in _5886EB3D23805507D0936D5C9C86F616) &lt;A where A: Zacks_Tracks.HTTPJsonRequest&gt; (jsonUrlRequest : Zacks_Tracks.JsonUrlRequest&lt;A&gt;) -&gt; BrightFutures.Future&lt;(json : SwiftyJSON.JSON, response : __ObjC.HTTPURLResponse), Zacks_Tracks.HTTPSessionError&lt;A.RequestError&gt;&gt;).(closure #1)"
+                  moduleName = "Zacks Tracks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackmcbride/Documents/Zacks%20Tracks/Zacks%20Tracks/JsonApiSession.swift"
+                  timestampString = "520381233.808334"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/JsonApiSession.swift"
+            timestampString = "520380656.710057"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "performJsonRequest(jsonUrlRequest:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380668.151208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "performJsonRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380763.312892"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "performJsonRequest(urlRequest:with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Zacks_Tracks.HTTPSession.(performJsonRequest &lt;A where A: Swift.Error&gt; (urlRequest : Foundation.URLRequest, with : __ObjC.URLSession) -&gt; BrightFutures.Future&lt;(json : SwiftyJSON.JSON, response : __ObjC.HTTPURLResponse), Zacks_Tracks.HTTPSessionError&lt;A&gt;&gt;).(closure #1)"
+                  moduleName = "Zacks Tracks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackmcbride/Documents/Zacks%20Tracks/Zacks%20Tracks/HTTPSession.swift"
+                  timestampString = "520381233.814963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Zacks_Tracks.HTTPSession.(performJsonRequest &lt;A where A: Swift.Error&gt; (urlRequest : Foundation.URLRequest, with : __ObjC.URLSession) -&gt; BrightFutures.Future&lt;(json : SwiftyJSON.JSON, response : __ObjC.HTTPURLResponse), Zacks_Tracks.HTTPSessionError&lt;A&gt;&gt;).(closure #1)"
+                  moduleName = "Zacks Tracks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackmcbride/Documents/Zacks%20Tracks/Zacks%20Tracks/HTTPSession.swift"
+                  timestampString = "520381233.816107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "273">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380764.30629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "performJsonRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380768.155502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "performJsonRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380769.630243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "performJsonRequest(urlRequest:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zacks Tracks/HTTPSession.swift"
+            timestampString = "520380954.542714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "performDownloadRequest(urlRequest:with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

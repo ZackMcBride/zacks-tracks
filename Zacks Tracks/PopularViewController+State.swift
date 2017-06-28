@@ -12,5 +12,4 @@ class PopularViewControllerState {
             self.tracks.value = tracks
         }
     }
-
 }
