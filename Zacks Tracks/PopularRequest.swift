@@ -23,7 +23,7 @@ class PopularRequest: HTTPGETRequest, HTTPJsonRequest {
             let track = Track()
             track.uuid = trackJson["uuid"]!.string!
             track.streamUrl = trackJson["streamUrl"]!.string!
-            // TODO 
+            // TODO
             track.rank = String(trackJson["rank"]!.int!)
             track.externalUrl = trackJson["externalUrl"]!.string!
             track.title = trackJson["title"]!.string!
